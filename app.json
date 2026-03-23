@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "MindCache",
+    "slug": "MindCache",
+    "version": "1.0.0",
+    "icon": "./assets/images/logo.jpg",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.janna123.mindcache",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo.jpg",
+        "backgroundColor": "#6366F1"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/logo.jpg",
+          "resizeMode": "contain",
+          "backgroundColor": "#6366F1"
+        }
+      ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "a199aebe-cdb0-4802-9bd2-73530e3aa28d"
+      }
+    }
+  }
+}
